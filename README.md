@@ -7,8 +7,10 @@ Command to check :
   su - postgres
   psql -U user1 -h localhost -d app1
   
-  ![image](https://user-images.githubusercontent.com/84037413/124477492-fe3cd100-dd9b-11eb-8a70-8a53b86a8386.png)
+```
+![image](https://user-images.githubusercontent.com/84037413/124477492-fe3cd100-dd9b-11eb-8a70-8a53b86a8386.png)
 
+```
   psql -U user
   it connects via UNIX Socket, which by default uses peer authentication, unless specified in pg_hba.conf otherwise.
 
